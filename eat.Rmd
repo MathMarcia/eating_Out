@@ -47,6 +47,8 @@ barchartGC(~race + eatout,data=mydata)
 barchartGC(~race + eatout,data=mydata, type="percent")
 
 ```
+
+
 In the % wise there was no much difference % in eating out from black and other race. The white people were eating out more.  
 
 
