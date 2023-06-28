@@ -32,7 +32,7 @@ require(knitr)
 require(foreign)
 ```
 
-```{r, eval=TRUE}
+```{r, eval=TRUE,echo=FALSE}
 #GSS <-(read_dta(file="GSS1998.dta))
 GSS<- readstata13::read.dta13(file="GSS1998.dta")
 GSS <-droplevels(GSS)
@@ -88,8 +88,8 @@ chisqtestGC(table1)
 We have a low P value .000002287. The Chi-square statistics is 25.9769.
 
 ```{r}
-fisherXY(mydata$race,mydata$eatout)
+fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 ```
-
+The P value of white is greater than 0.05. the P value is lower for black. The White and the black have a difference of 2.2 eating out. FisherXy is the analog  to Tuki HD.The odds between Black and White is somewhere were 0 is between 0.4 and 1.49 and Zero is in the middle. this twomethods are very similar to each other.
 
 
