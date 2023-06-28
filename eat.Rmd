@@ -77,6 +77,9 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+We have numerical result. % is the top table the white people are in out. almost 70% black were eating out, and 28 people eat in. the other race were the smallest and the black is in the middle, juts the white group was eating out more and had the highest %.
+
+
 
 
 
